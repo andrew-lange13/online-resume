@@ -1,0 +1,52 @@
+/* CSS HEX */
+/*--eerie-black: #262626ff;*/
+/*--laurel-green: #acbfa4ff;*/
+/*--beige: #e2e8ceff;*/
+/*--amber-sae-ece: #ff7f11ff;*/
+/*--red-ryb: #ff1b1cff;*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2e8ceff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #ff1b1cff;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.bio > p {
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+}
+
+.container {
+    border: #ff7f11ff solid 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.column2 {
+    background-color: #acbfa4ff;
+    color: #262626ff;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
