@@ -14,9 +14,51 @@
 }
 
 body {
-    background-color: #987284ff;
+    background: #7e9181ff;
 }
 
 .main {
+    width: 800px;
+    background: #171738ff;
+    margin: 25px auto;
+    display: flex;
+}
 
+.left {
+    background: #987284ff;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.right{
+    width: calc(100% - 250px);
+}
+
+.left .headshot {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left .headshot img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #171738ff;
+    text-align: center;
+    border-bottom: #171738ff solid;
+    margin-bottom: 15px;
+}
+
+.left .icon {
+    font-size: 20px;
+    color: #fde74cff;
 }
