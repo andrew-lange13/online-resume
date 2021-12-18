@@ -1,12 +1,19 @@
 /* CSS HEX */
-/*--eerie-black: #262626ff;*/
-/*--laurel-green: #acbfa4ff;*/
-/*--beige: #e2e8ceff;*/
-/*--amber-sae-ece: #ff7f11ff;*/
-/*--red-ryb: #ff1b1cff;*/
+/*--mountbatten-pink: #987284ff;*/
+/*--xanadu: #7e9181ff;*/
+/*--space-cadet: #171738ff;*/
+/*--minion-yellow: #fde74cff;*/
+/*--cosmic-latte: #fffce8ff;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e2e8ceff;
+    background-color: #7e9181ff;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -38,7 +45,7 @@ body {
 
 .contact-info ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
 }
 .contact-info ul li {
@@ -63,7 +70,7 @@ body {
 .skills ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-start;
     list-style: none;
     height: 9rem;
