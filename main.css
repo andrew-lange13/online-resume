@@ -17,6 +17,7 @@
     display: flex;
     /*justify-content: space-evenly;*/
     margin-top: 1rem;
+    width: 100%;
 }
 .left{
     display: flex;
@@ -28,7 +29,7 @@
 .right{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 75%;
     background: #acbdbaff;
 }
 .picture{
@@ -70,4 +71,7 @@ i{
 .social li{
     display: flex;
     margin-left: .5rem;
+}
+.projects{
+    margin: 1rem 0 0 1rem;
 }
